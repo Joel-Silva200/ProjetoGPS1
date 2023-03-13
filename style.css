@@ -23,6 +23,8 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin-bottom: -40vh;
+    
 }
 
 .row{
@@ -375,4 +377,8 @@
     padding: 20px;
    }
     
+}
+
+.footer2 {
+    padding-bottom: -;
 }
