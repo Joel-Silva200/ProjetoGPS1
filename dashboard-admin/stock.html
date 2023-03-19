@@ -95,6 +95,12 @@
                     <span>Máquinas</span>
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="stock.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Stock</span>
+                </a>
+            </li>
 
             <!-- Divider -->
             <!-- <hr class="sidebar-divider"> -->
@@ -381,24 +387,40 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Produtos</h1>
+                    <h1 class="h3 mb-2 text-gray-800">Encomendas</h1>
+                    <p>Clique no ID para ver mais detalhes sobre cada encomenda.</p>
 
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-body">
                             <div class="table-responsive">
-                                <div class="card">
-                                    <img src="../assets/images/features/f1_fotos/f1_3.png" alt="Kit Prateleiras" style="width: 10rem; height: auto;">
-                                    <div class="container">
-                                      <h4><b><a id="" href="detalhe_produto3029122.html">Kit Armários de cozinha</a></b></h4>
-                                    </div>
-                                  </div>
-                                  <div class="card">
-                                    <img src="../assets/images/slider/slider1.png" alt="Mesa de Cozinha" style="width: 10rem; height: auto;">
-                                    <div class="container">
-                                      <h4><b><a button="">Mesa De Cozinha PORTUS JAZMIN BRANCO</a></b></h4>
-                                    </div>
-                                  </div>
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagem</th>
+                                            <th>Produto(s)</th>
+                                            <th>Nº do Fornecedor</th>
+                                            <th>Preço</th>
+                                            <th>Quantidade em stock</th>
+                                        </tr>   
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><img style="width: 7rem; height: auto;" src="../assets/images/dobradica.jpg"></img></td>
+                                            <td>Dobradiças</td>
+                                            <td>502</td>
+                                            <td>2.35€</td>
+                                            <td>132</td>
+                                        </tr>
+                                        <tr>
+                                            <td><img style="width: 7rem; height: auto;" src="../assets/images/tabua-madeira.jpg"></img></td>
+                                            <td>Tábua de madeira</td>
+                                            <td>501</td>
+                                            <td>13.99€</td>
+                                            <td>183</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
